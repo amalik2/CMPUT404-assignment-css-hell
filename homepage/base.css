@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+}
+
+.headerLinks {
+    display: flex;
+    margin: auto;
+}
+
+.headerItem {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.middle {
+    display: flex;
+}
+
+.sidebar {
+    width: 20vw;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content {
+    width: 78vw;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footerLinks {
+    display: flex;
+    margin: auto;
+}
+
+.footerItem {
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.aboutMeContainer {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.hideAnchor {
+    text-decoration: none;
+}
+
+.photo {
+    padding-right: 25px;
+    margin-top: 25px;
+}
+
+.name {
+    text-align: center;
+}

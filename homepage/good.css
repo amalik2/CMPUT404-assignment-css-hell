@@ -1,0 +1,65 @@
+/* Credit to Google Fonts at https://fonts.google.com/specimen/Montserrat (Open Font License) for this font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    /* w3schools gradients https://www.w3schools.com/css/css3_gradients.asp was used as a reference for the linear-gradient */
+    background-image: linear-gradient(45deg, whitesmoke, white);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top, .footer {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: white;
+}
+
+.sidebar {
+    background-color: #bfbfbf;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.detailsSection > :not(h2) {
+    margin-left: 25px;
+}
+
+.detailsSection > h2 {
+    margin-left: 5px;
+}
+
+.headerItem:hover {
+    color: black;
+}
+
+.footerItem:hover {
+    color: black;
+}
+
+.footer {
+    min-height: 35px;
+    border-radius: 5px;
+}
+
+.footer > div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sidebarItem {
+    margin-left: 8px;
+    font-size: 9pt;
+    margin-top: -16px;
+}
+
+.sidebarItemHeader {
+    color: dodgerblue;
+}
+
+.sidebar > h3::before {
+    content: "Important "
+}
+
+.welcomeMessage {
+    display: none;
+}

@@ -1,0 +1,96 @@
+/* Credit to Google Fonts at https://fonts.google.com/specimen/Montserrat (Open Font License) for this font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body, pre {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /* w3schools gradients https://www.w3schools.com/css/css3_gradients.asp was used as a reference for the linear-gradient */
+    background-image: linear-gradient(to right, #282c34, black);
+    color: whitesmoke;
+}
+
+pre {
+    border-bottom: thin solid;
+    font-style: initial;
+}
+
+p {
+    text-indent: 25px;
+    line-height: 25px;
+    font-size: large;
+}
+
+h1 {
+    margin-top: auto !important;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+img {
+    border-radius: 12px;
+    width: 50%;
+}
+
+div.figcenter {
+    padding: 5px 5px 5px 5px;
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* Image Captions */
+.figcenter .ic001 p {
+    text-align: justify;
+}
+
+h1, h2, h3, h4 {
+    text-decoration: underline;
+    font-weight: 100;
+    text-underline-position: under;
+}
+
+.toc {
+    margin-bottom: auto;
+}
+
+.pageno {
+    color: whitesmoke;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    border: thin solid whitesmoke;
+    font-size: 25px;
+    background-color: initial;
+}
+
+a {
+    font-size: 17px;
+    color: lime;
+    text-indent: 0;
+}
+
+a:visited {
+    color: blue;
+}
+
+.xxsmall {
+    font-size: 14px;
+}
+
+.sc {
+    font-variant: initial;
+}
+
+h1 br {
+    display: none;
+}
+
+h1 span + br {
+    display: flex;
+}

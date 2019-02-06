@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: cursive;
+}
+
+.top, .footer {
+    background-color: blue;
+}
+
+.name {
+    margin-left: 16px;
+
+    /* Credit to "Commercial Suicide" at https://stackoverflow.com/a/40557564 for the rainbow text */
+    background-image: linear-gradient(45deg, yellow, red 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.name::after {
+    content: "Alpha";
+    background-color: yellow;
+    color: black;
+    background-image: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+    font-size: 14pt;
+    position: absolute;
+    top: 25px;
+    margin-left: 25px;
+}
+
+.sidebar {
+    background-color: goldenrod;
+}
+
+.sidebarItem {
+    display: none;
+}
+
+li {
+    list-style-type: gujarati;
+}
+
+.headerItem, .footerItem {
+    color: black;
+    background-image: linear-gradient(yellow, orange);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    margin: initial;
+}
+
+.headerItem:hover {
+    color: darkblue;
+}
+
+.footerItem:hover {
+    color: darkblue;
+}
+
+p, li, h4 {
+    font-size: larger;
+}
+
+.headerItem, .footerItem {
+    font-size: larger;
+}
+
+.welcomeMessage {
+    background-color: #f96a83;
+    font-size: 16pt;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.headerLinks {
+    margin-bottom: 8px;
+}
+
+.sidebarItemHeader {
+    color: green;
+}
+
+.sidebar > h3 {
+    font-size: 20pt;
+}
