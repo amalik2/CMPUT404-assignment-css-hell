@@ -15,7 +15,7 @@ body {
 }
 
 .sidebar {
-    background-color: #bfbfbf;
+    background-color: #e6e6e6;
     height: fit-content;
     border-radius: 5px;
 }
@@ -57,7 +57,11 @@ body {
 }
 
 .sidebar > h3::before {
-    content: "Important "
+    content: "Important ";
+}
+
+.sidebar > h3 {
+    font-size: x-large;
 }
 
 .welcomeMessage {
