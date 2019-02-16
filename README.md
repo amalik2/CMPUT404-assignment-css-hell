@@ -21,6 +21,8 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License
 
+Project Gutenberg images are licensed under [The Project Gutenberg License](https://www.gutenberg.org/wiki/Gutenberg:The_Project_Gutenberg_License)  
+
 Changes Made to Gutenberg Files
 ===============================
 
