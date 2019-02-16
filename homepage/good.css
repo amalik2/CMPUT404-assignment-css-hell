@@ -9,7 +9,7 @@ body {
 }
 
 .top, .footer {
-    background-color: dodgerblue;
+    background-image: linear-gradient(to right, blue, dodgerblue, blue);
     border-radius: 5px;
     color: white;
 }
@@ -17,6 +17,7 @@ body {
 .sidebar {
     background-color: #e6e6e6;
     height: fit-content;
+    height: -moz-fit-content;
     border-radius: 5px;
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 .headerItem:hover {
-    color: black;
+    color: dodgerblue;
 }
 
 .footerItem:hover {
@@ -58,6 +59,7 @@ body {
 
 .sidebar > h3::before {
     content: "Important ";
+    font-style: italic;
 }
 
 .sidebar > h3 {
@@ -70,4 +72,18 @@ body {
 
 header {
     margin-top: -20px;
+}
+
+.header {
+    background-image: linear-gradient(#282c34, #6f6767);
+}
+
+.name {
+    margin-right: 5em;
+    padding-top: 0.4em;
+}
+
+.headerLinks {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
 }
